@@ -1,0 +1,10 @@
+word = "калькулятор"
+letter = "к"
+
+count = 0
+
+for char in word:
+    if char == letter:
+        count += 1
+
+print("Количество букв", letter, 'в слове', word, 'равно:', count)
